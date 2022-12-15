@@ -1,0 +1,114 @@
+body {
+    color: white;
+    background-image: url('the alex ferguson stand.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.redcard {
+    background-color: rgb(255, 3, 3);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 50%;
+    margin: 50px auto;
+    padding: 30px;
+}
+
+#logo {
+    text-align: center;
+}
+
+.first-text {
+    text-align: center;
+    font-size: 37px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input {
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    border-bottom: 1px solid rgb(246, 246, 250);
+    background-color: transparent;
+    padding-bottom: 7px;
+    font-size: 23px;
+    color: rgb(245, 245, 252);
+    width: 100%;
+}
+
+input::placeholder {
+    color: white
+}
+
+.second-text {
+    text-align: center;
+    font-size: 37px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.third-text {
+    text-align: center;
+    font-size: 37px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.linker {
+    text-decoration: none;
+    color: white;
+}
+
+.button2 {
+    background-color: darkslategray;
+}
+
+.button3 {
+    background-color: rgb(111, 197, 85);
+}
+
+#log-in {
+    text-align: center;
+}
+
+#fg {
+    text-align: center;
+}
+
+#buttons {
+    text-align: center;
+}
+
+#choice {
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.cb {
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -5px;
+}
